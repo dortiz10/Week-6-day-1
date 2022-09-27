@@ -122,6 +122,7 @@ print(my_bool)
 
 text = "this sentence is short"
 my_bool = ("sentence" in text) and ("python" not in text)
+print(my_bool)
 
 
 # Logical Operators Practice #1
@@ -139,7 +140,7 @@ num1 = 36
 num2 = 72/2
 num3 = 48
 
-my_bool = num1 > num2, num1 < num3
+my_bool = (num1 > num2) and (num1 < num3)
 print(my_bool)
 
 
@@ -157,7 +158,7 @@ print(my_bool)
 num1 = 36
 num2 = 72/2
 num3 = 48
-my_bool = num1 > num2 , num1 < num3
+my_bool = (num1 > num2) or (num1 < num3)
 print(my_bool)
 
 # Logical Operators Practice #3
@@ -171,8 +172,11 @@ print(my_bool)
 
 # "When something is important enough, you do it even if the odds are against you" - Elon Musk
 
-
-
+text1 = "When something is important enough, you do it even if the odds are against you." 
+word1 = "success"
+word2 = "technology"
+my_bool = ("success" in text1) and ("technology" in text1)
+print(my_bool)
 
 
 ########################################decision making in python#####################################
